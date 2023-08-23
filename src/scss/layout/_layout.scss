@@ -4,13 +4,27 @@
   width: 100%;
   padding: 0 1rem;
 
+  @include from(768px) {
+    padding: 4rem 4rem;
+  }
+
   &__menu {
     width: 2rem;
     height: 2rem;
+
+    @include from(768px) {
+      display: none;
+    }
   }
 
   &__logo {
     width: 9.25rem;
+    justify-self: center;
+
+    @include from(768px) {
+      width: 18.25rem;
+      justify-self: start;
+    }
   }
 
   &__buttons {
@@ -18,5 +32,111 @@
 
     display: flex;
     gap: 0.25rem;
+    @include from(768px) {
+      justify-self: end;
+      gap: 2rem;
+
+      img {
+        width: 2.25rem;
+      }
+    }
+  }
+}
+
+.HeaderNav {
+  position: relative;
+  background-color: var(--color-grey-900);
+
+  @include to(768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 1rem 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    transition: transform 0.3s ease-in-out, width 0.3s ease-in-out;
+    transform: translateX(-100%);
+    z-index: var(--z-overlay);
+  }
+
+  @include from(768px) {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+
+    &::after {
+      content: '';
+      height: 1px;
+      background-color: white;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: calc(100% - 6rem);
+
+      margin: 0 auto;
+    }
+  }
+
+  &--active {
+    @include to(768px) {
+      transform: translateX(0);
+      width: 80%;
+      z-index: var(--z-overlay);
+    }
+  }
+
+  &__Logo {
+    width: 8.75rem;
+    @include from(768px) {
+      display: none;
+    }
+  }
+
+  &__Icon {
+    position: absolute;
+    top: 0.85rem;
+    right: 0.85rem;
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    @include from(768px) {
+      display: none;
+    }
+  }
+
+  &__Links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70%;
+
+    @include from(768px) {
+      flex-direction: row;
+      height: auto;
+      gap: 1.5rem;
+    }
+
+    a {
+      font-family: 'BD Megatoya Regular';
+      color: #ffffff;
+    }
+  }
+
+  &__Select {
+    display: block;
+    width: 6rem;
+    height: 2rem;
+
+    @include from(768px) {
+      width: 4rem;
+    }
   }
 }

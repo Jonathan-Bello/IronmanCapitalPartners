@@ -2,17 +2,17 @@
 
 // Map for prmary colors
 $primaryColors: (
-  100: #cce5ef,
-  200: #99cbdf,
-  300: #66b2d0,
-  400: #3398c0,
+  100: #ccf1f0,
+  200: #99e4e1,
+  300: #66d6d2,
+  400: #33c9c3,
   // Main color
-  500: #007eb0,
-  600: #00658d,
-  700: #004c6a,
+  500: #00bbb4,
+  600: #009690,
+  700: #00706c,
   // Azul
-  800: #063678,
-  900: #201a12,
+  800: #004b48,
+  900: #002524,
 );
 
 $secondaryColors: (
@@ -30,24 +30,24 @@ $secondaryColors: (
 
 $greyColors: (
   //main bg
-  50: #f4f4f5,
-  100: #e9eaea,
+  50: #e9e9e9,
+  100: #d3d3d3,
   // Titles
-  200: #d4d5d6,
+  200: #bdbdbd,
   // Subtitles
-  300: #bebfc1,
+  300: #a7a7a7,
   // Cards Title and icons
-  400: #939598,
+  400: #919191,
   // Paragraphs
-  500: #4a4b4c,
+  500: #7a7a7a,
   // Small text
-  600: #3b3c3d,
+  600: #646464,
   // Main background
-  700: #2c2d2e,
+  700: #4e4e4e,
   // Bg card or inputs
-  800: #1d1e1e,
+  800: #383838,
   // Bg AppBar, banner and footer
-  900: #0f0f0f
+  900: #222222
 );
 
 $header-height: 7rem;
