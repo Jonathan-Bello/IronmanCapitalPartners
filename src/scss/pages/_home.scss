@@ -1,0 +1,54 @@
+.hero {
+  width: 100%;
+  height: 32rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1.25rem;
+    @include from(m) {
+      max-width: 768px;
+    }
+
+    @include from(lg) {
+      max-width: 900px;
+    }
+  }
+
+  &__bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    object-fit: cover;
+  }
+
+  &__titleImg {
+    margin-bottom: 1.5rem;
+  }
+
+  &__text {
+    font-family: 'BD Megatoya Regular';
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+
+    @include from(lg) {
+      font-size: 1.25rem;
+    }
+  }
+
+  &__button {
+    font-family: 'BD Megatoya Bold';
+    color: var(--color-primary-600);
+    background-color: white;
+    border-radius: 0.8em;
+    padding: 1rem 2rem;
+  }
+}
