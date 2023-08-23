@@ -1,0 +1,54 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: var(--z-front);
+
+  width: 100%;
+  height: var(--header-height);
+  background-color: transparent;
+  padding: 0 2rem;
+
+  @include from(m) {
+    padding: 0 4rem;
+  }
+
+  &__menu {
+    width: 2.5rem;
+    height: 2.5rem;
+    color: #ffffff;
+  }
+
+  &__logo {
+    width: 4rem !important;
+    height: 4rem !important;
+    overflow: visible;
+    // alinear centro vertical en su celda de grid
+    align-self: center;
+    @include from(m) {
+      width: 7.8rem !important;
+      height: 5rem !important;
+    }
+  }
+
+  &__social {
+    display: flex;
+    justify-content: end;
+
+    &__icon {
+      width: 1.5rem;
+      height: 1.5rem;
+      color: #ffffff;
+    }
+
+    &__icon:nth-child(1) {
+      margin: 0 1rem 0 0;
+    }
+  }
+}
+
+.header--fixed {
+  background-color: #273239;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,129 @@
+// Colors
+
+// Map for prmary colors
+$primaryColors: (
+  100: #cce5ef,
+  200: #99cbdf,
+  300: #66b2d0,
+  400: #3398c0,
+  // Main color
+  500: #007eb0,
+  600: #00658d,
+  700: #004c6a,
+  // Azul
+  800: #063678,
+  900: #201a12,
+);
+
+$secondaryColors: (
+  100: #e9f1d3,
+  200: #d3e4a7,
+  300: #bdd67c,
+  400: #a7c950,
+  // Primario
+  500: #91bb24,
+  600: #83a820,
+  700: #668319,
+  800: #495e12,
+  900: #2b380b,
+);
+
+$greyColors: (
+  //main bg
+  50: #f4f4f5,
+  100: #e9eaea,
+  // Titles
+  200: #d4d5d6,
+  // Subtitles
+  300: #bebfc1,
+  // Cards Title and icons
+  400: #939598,
+  // Paragraphs
+  500: #4a4b4c,
+  // Small text
+  600: #3b3c3d,
+  // Main background
+  700: #2c2d2e,
+  // Bg card or inputs
+  800: #1d1e1e,
+  // Bg AppBar, banner and footer
+  900: #0f0f0f
+);
+
+$header-height: 7rem;
+$section-spacing: 4rem;
+$block-pacing: 1rem;
+$title-line-height: 1.3;
+$body-line-height: 1.6;
+
+// Fonts
+$font-title: 'Avenir', sans-serif;
+$font-body: 'Bell MT', sans-serif;
+
+// z-index values
+$z-back: -10;
+$z-normal: 1;
+$z-front: 10;
+$z-tooltip: 20;
+$z-overlay: 30;
+$z-modal: 40;
+$z-fixed: 50;
+$z-off-canvas: 100;
+
+// Breakpoints
+// $breakpoint-xs: 0;
+// $breakpoint-sm: 576px;
+// $breakpoint-md: 768px;
+// $breakpoint-lg: 992px;
+// $breakpoint-xl: 1200px;
+
+// Breakpoints
+$breakpoint-xs: 0;
+$breakpoint-md: 40em; // 640px
+$breakpoint-lg: 64em; // 1024px
+$breakpoint-xl: 90em; // 1440px
+
+// Font sizes
+$font-size-h1: 1.75rem;
+$font-size-h2: 1.5rem;
+$font-size-h3: 1.25rem;
+$font-size-h4: 1rem;
+$font-size-big: 1rem;
+$font-size-normal: 0.875rem;
+$font-size-small: 0.75rem;
+$font-size-smaller: 0.6875rem;
+
+// Others
+/* Size max in desktop */
+$max-width: 1200px;
+$border-radius: 0.25rem;
+$box-shadow: 0 2px 2px rgba(36, 47, 66, 0.1);
+
+// Colors comodines
+$color-primary: map-get($primaryColors, 300);
+$color-primary-dark: map-get($primaryColors, 800);
+
+// Colors verdes
+$color-secondary: map-get($secondaryColors, 500);
+
+// Enfasis
+$color-enfasis: #d4dc34;
+
+// Colors grises
+$color-bg-main: map-get($greyColors, 50);
+$color-title: map-get($greyColors, 700);
+$color-text: map-get($greyColors, 500);
+
+// Variables sizes in desktopy
+$header-height-lg: 8.75rem;
+$section-spacing-lg: 2rem;
+$block-spacing-lg: 2rem;
+
+$font-size-h1-lg: 3rem;
+$font-size-h2-lg: 2rem;
+$font-size-h3-lg: 1.5rem;
+$font-size-h4-lg: 1.25rem;
+$font-size-big-lg: 1.25rem;
+$font-size-normal-lg: 1rem;
+$font-size-small-lg: 0.875rem;
+$font-size-smaller-lg: 0.75rem;
