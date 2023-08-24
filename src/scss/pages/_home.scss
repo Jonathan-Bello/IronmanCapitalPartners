@@ -1,3 +1,4 @@
+// *Hero Banner
 .hero {
   width: 100%;
   height: 32rem;
@@ -54,6 +55,7 @@
   }
 }
 
+// *Slogan Container
 .SloganContainer {
   position: relative;
   display: flex;
@@ -92,5 +94,52 @@
       max-width: 768px;
       font-size: 1.3rem;
     }
+  }
+}
+
+// *BePart
+.BePart {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  height: 15.625rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 0 1.5rem;
+
+  @include from(768px) {
+    padding: 0 3.5rem;
+    height: 13.125rem;
+  }
+
+  &__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__title {
+    font-family: 'BD Megatoya Bold';
+    color: white;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    font-family: 'BD Megatoya Regular';
+    color: white;
+  }
+
+  &__button {
+    font-family: 'BD Megatoya Bold';
+    color: var(--color-primary-600);
+    background-color: white;
+    border-radius: 0.8em;
+    padding: 1rem 2rem;
   }
 }
