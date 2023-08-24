@@ -16,8 +16,8 @@ const Header = () => {
     if (windowSize.width > 768) {
       setShowMenu(true)
     } else {
-      // si showNav es true, bloquear scroll vertical
-      if (showNav) {
+      // si showMenu es true, bloquear scroll vertical
+      if (showMenu) {
         document.body.style.overflow = 'hidden'
       } else {
         document.body.style.overflow = 'unset'
