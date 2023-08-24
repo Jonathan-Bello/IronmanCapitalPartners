@@ -140,3 +140,63 @@
     }
   }
 }
+
+.Footer {
+  background-color: var(--color-grey-900);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 0.5rem 1.5rem;
+
+  @include from(m) {
+    padding: 1rem 4rem;
+  }
+
+  &__logo {
+    max-width: 12rem;
+    margin-bottom: 3rem;
+  }
+
+  &__content {
+    margin-bottom: 1rem;
+    h4 {
+      font-family: 'BD Megatoya Regular';
+      color: white;
+    }
+
+    p {
+      color: white;
+      font-family: 'BD Megatoya Light';
+
+      @include from(lg) {
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  &__text {
+    width: 100%;
+    position: relative;
+    color: white;
+    font-family: 'BD Megatoya Light';
+    text-align: center;
+
+    &::after {
+      content: '';
+      height: 1px;
+      background-color: white;
+      position: absolute;
+      top: -1rem;
+      left: 0;
+      right: 0;
+      width: calc(100% - 0.1rem);
+      margin: 0 auto;
+
+      @include from(m) {
+        width: calc(100% - 0rem);
+      }
+    }
+  }
+}
