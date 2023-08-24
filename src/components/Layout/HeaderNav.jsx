@@ -19,10 +19,10 @@ const HeaderNav = ({ showMenu, setShowMenu }) => {
 
       <div className="HeaderNav__Links">
         <Link to="/">Home</Link>
-        <Link to="/WhoWeAre">Who we are</Link>
-        <Link to="/Partners">Ironman Partners</Link>
-        <Link to="/Portafolio">Portafolio</Link>
-        <Link to="/Contact">Contact</Link>
+        <Link to="/who">Who we are</Link>
+        <Link to="/partners">Ironman Partners</Link>
+        <Link to="/portafolio">Portafolio</Link>
+        <Link to="/contact">Contact</Link>
       </div>
 
       <select className="HeaderNav__Select">

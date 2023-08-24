@@ -1,16 +1,15 @@
 import React from 'react'
-import '../scss/styles.scss'
+import WhoContent from '../components/pages/Who/WhoContent'
 import Layout from '../components/Layout'
-import HomePageContent from '../components/pages/Home/HomePageContent'
 import Footer from '../components/Layout/Footer'
 
-const IndexPage = () => {
+const WhoPage = () => {
   return (
     <Layout>
-      <HomePageContent />
+      <WhoContent />
       <Footer />
     </Layout>
   )
 }
 
-export default IndexPage
+export default WhoPage

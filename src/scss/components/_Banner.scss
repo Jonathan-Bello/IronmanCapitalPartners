@@ -1,0 +1,71 @@
+.banner {
+  width: 100%;
+  height: 32rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1.25rem;
+    @include from(m) {
+      max-width: 768px;
+    }
+
+    @include from(lg) {
+      max-width: 900px;
+    }
+  }
+
+  &__title {
+    font-family: 'BD Megatoya Bold';
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.75rem;
+    font-weight: 900;
+    text-align: center;
+
+    @include from(lg) {
+      font-size: 3.5rem;
+    }
+  }
+
+  &__bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    object-fit: cover;
+  }
+
+  &__titleImg {
+    margin-bottom: 1.5rem;
+  }
+
+  &__text {
+    font-family: 'BD Megatoya Medium';
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+
+    @include from(lg) {
+      margin-bottom: 4rem;
+      font-size: 1.25rem;
+    }
+  }
+
+  &__button {
+    font-family: 'BD Megatoya Bold';
+    color: var(--color-primary-600);
+    background-color: white;
+    border-radius: 0.8em;
+    padding: 1rem 2rem;
+  }
+}

@@ -5,7 +5,7 @@ import BePart from './BePart'
 import OurServices from './OurServices'
 import NewLetter from './NewLetter'
 
-const HomaPageContent = () => {
+const HomePageContent = () => {
   return (
     <>
       <HeroBanner />
@@ -17,4 +17,4 @@ const HomaPageContent = () => {
   )
 }
 
-export default HomaPageContent
+export default HomePageContent
