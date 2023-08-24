@@ -12,7 +12,7 @@ const HomaPageContent = () => {
       <SloganContainer />
       <BePart />
       <OurServices />
-      {/* <NewLetter /> */}
+      <NewLetter />
     </>
   )
 }

@@ -193,8 +193,86 @@
 //  *NewLetter
 .NewLetter {
   background-color: var(--color-grey-900);
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include from(m) {
+    align-items: start;
+  }
+
+  &__titleContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include from(lg) {
+      justify-content: start;
+      padding: 0 4rem;
+    }
+  }
+
+  &__img {
+    max-width: 20rem;
+    margin-bottom: 1rem;
+
+    @include from(m) {
+      max-width: 24rem;
+    }
+
+    @include from(lg) {
+    }
+  }
+
+  &__slidercontainer {
+    width: 100%;
+    z-index: 10;
+  }
+
+  &__bg {
+    position: relative;
+    top: -8rem;
+    z-index: 0;
+    width: 100%;
+    height: 150px;
+  }
 }
 
 //  *CardNews
 .CardNews {
+  width: 16rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  overflow: hidden;
+
+  &__img {
+    width: 100%;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+  }
+
+  &__title {
+    font-family: 'BD Megatoya Bold';
+    font-size: 1.1rem;
+  }
+
+  &__description {
+    font-family: 'BD Megatoya Light';
+    font-size: 0.75rem;
+  }
+
+  &__link {
+    font-family: 'BD Megatoya Medium';
+    color: var(--color-primary-600);
+    text-decoration: underline;
+  }
 }

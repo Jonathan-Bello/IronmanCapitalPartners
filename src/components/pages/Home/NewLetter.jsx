@@ -1,39 +1,65 @@
 import React from 'react'
+import '@splidejs/react-splide/css'
+import { Splide, SplideSlide, SplideTrack } from '@splidejs/react-splide'
+
 import newLetterTitle from '../../../assets/images/newsletter.png'
-import Slider from 'react-slick'
+import bgVerde from '../../../assets/images/fondo-verde.png'
 import data from './newsData'
 import CardNews from './CardNews'
 
 const NewLetter = () => {
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  }
-
   return (
     <section className="NewLetter">
-      <img
-        className="NewLetter__img"
-        src={newLetterTitle}
-        alt="newLetterTitle"
-      />
+      <div className="NewLetter__titleContainer">
+        <img
+          className="NewLetter__img"
+          src={newLetterTitle}
+          alt="newLetterTitle"
+        />
+      </div>
 
       <div className="NewLetter__slidercontainer">
-        <Slider {...settings} className="NewLetter__Slider">
-          {data.map((item, index) => (
-            <CardNews
-              key={index}
-              img={item.img}
-              title={item.title}
-              description={item.description}
-              linkUrl={item.linkUrl}
-            />
-          ))}
-        </Slider>
+        <Splide
+          hasTrack={false}
+          className="ed-grid full"
+          options={{
+            perPage: 3,
+            pagination: false,
+            width: '100%',
+            breakpoints: {
+              640: {
+                perPage: 1,
+                gap: '.7rem',
+              },
+              768: {
+                perPage: 2,
+                gap: '.7rem',
+              },
+              1024: {
+                perPage: 3,
+                gap: '.7rem',
+              },
+            },
+          }}
+        >
+          <SplideTrack>
+            {data.map(item => (
+              <SplideSlide
+                key={item.id}
+                className="s-main-center s-cross-center"
+              >
+                <CardNews {...item} />
+              </SplideSlide>
+            ))}
+          </SplideTrack>
+        </Splide>
       </div>
+
+      <img
+        className="NewLetter__bg"
+        src={bgVerde}
+        alt="bgVerde"
+      />
     </section>
   )
 }
