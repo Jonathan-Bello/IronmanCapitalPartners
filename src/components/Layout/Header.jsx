@@ -15,7 +15,9 @@ const Header = () => {
   useEffect(() => {
     if (windowSize.width > 768) {
       setShowMenu(true)
-    } else {
+    }
+
+    if (windowSize.width <= 768) {
       // si showMenu es true, bloquear scroll vertical
       if (showMenu) {
         document.body.style.overflow = 'hidden'
@@ -23,7 +25,7 @@ const Header = () => {
         document.body.style.overflow = 'unset'
       }
     }
-  }, [windowSize])
+  }, [windowSize, showMenu])
 
   return (
     <>

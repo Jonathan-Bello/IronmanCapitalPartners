@@ -1,0 +1,72 @@
+.SectionTeam {
+  background-color: var(--color-grey-900);
+  color: white;
+  font-family: 'BD Megatoya Light';
+
+  display: flex;
+  flex-direction: column;
+  // padding: 2rem 1rem;
+  margin: 0;
+
+  &__text {
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.8rem;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -0.5rem;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+
+      width: calc(100% - 80%);
+      height: 2px;
+      background-color: var(--color-primary-500);
+      z-index: 100;
+    }
+  }
+
+  &__network {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 2rem 0;
+
+    padding: 4rem 0;
+    background-image: url('/img/bgLogosMobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @include from(500px) {
+      background-size: 100% 100%;
+    }
+
+    @include from(lg) {
+      padding: 2rem 0 5rem;
+      background-image: url('/img/bgLogosDesk.jpg');
+    }
+
+    &-title {
+      color: #222;
+      font-family: 'BD Megatoya Bold';
+      font-size: 2.5em;
+
+      @include from(lg) {
+        font-size: 3em;
+      }
+    }
+
+    &-logos {
+      @include to(lg) {
+        justify-items: center;
+        gap: 2rem;
+      }
+    }
+  }
+}

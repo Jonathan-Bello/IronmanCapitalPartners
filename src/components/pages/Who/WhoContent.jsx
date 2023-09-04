@@ -1,6 +1,7 @@
 import React from 'react'
 import Banner from '../../Banner/Banner'
 import PortadaWho from '../../../assets/images/PortadaWho.jpg'
+import SectionTeam from './SectionTeam'
 
 const WhoContent = () => {
   return (
@@ -13,6 +14,7 @@ const WhoContent = () => {
         }
         urlLink={'/'}
       />
+      <SectionTeam />
     </>
   )
 }
