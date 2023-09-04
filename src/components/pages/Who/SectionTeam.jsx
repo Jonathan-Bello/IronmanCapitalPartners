@@ -18,7 +18,7 @@ import bgLogosDesk from '../../../assets/images/who/bgLogosDesk.jpg'
 const SectionTeam = () => {
   return (
     <section className="SectionTeam">
-      <p className="SectionTeam__text">
+      <p className="SectionTeam__text ed-grid">
         Our team’s decades of combined supervisory expertise help guarantee our
         clients the lowest costs and a clearer understanding of their finances.
       </p>
@@ -53,7 +53,7 @@ const SectionTeam = () => {
         />
       </div>
 
-      <p className="SectionTeam__text">
+      <p className="SectionTeam__text ed-grid">
         Ironman, headquartered in Miami, Florida, with a strong presence in
         Mexico City, is a pioneer in the fintech space, carrying over two
         decades of unrivaled expertise in the global financial and fintech
@@ -69,11 +69,6 @@ const SectionTeam = () => {
       </p>
 
       <div className="SectionTeam__network">
-        {/* <img
-          className="SectionTeam__network__imgBg"
-          src={bgLogosMobile}
-          alt="bg logos mobile"
-        /> */}
         <h2 className="SectionTeam__network-title">NETWORK</h2>
         <div className="SectionTeam__network-logos ed-grid s-grid-1 lg-grid-5 s-main-center s-cross-center">
           <img src={logoExperienceClub} alt="logo experience club" />
