@@ -1,6 +1,7 @@
 import React from 'react'
 import Banner from '../../Banner/Banner'
 import PortadaPartners from '../../../assets/images/PortadaPartners.jpg'
+import ParthersSection from './ParthersSection'
 
 const PartnersContent = () => {
   return (
@@ -11,6 +12,8 @@ const PartnersContent = () => {
         text={'PRIVATE EQUITY ACCELERATOR'}
         urlLink={'/'}
       />
+
+      <ParthersSection />
     </>
   )
 }
