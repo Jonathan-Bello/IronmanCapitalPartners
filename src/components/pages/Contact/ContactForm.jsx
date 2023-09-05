@@ -112,7 +112,7 @@ const ContactForm = () => {
           type="submit"
           disabled={state.submitting}
         >
-          Submit
+          SEND
         </button>
       </form>
     </section>
