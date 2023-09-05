@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@formspree/react": "^2.5.1",
     "@splidejs/react-splide": "^0.7.12",
     "ed-grid": "^3.0.2",
     "gatsby": "^5.11.0",
