@@ -1,2 +1,22 @@
 @import './ContactForm';
 @import './ContactOptions';
+
+.ContactContent {
+  position: relative;
+}
+
+.ContactMap {
+  &__title {
+    width: 80%;
+    justify-self: center;
+  }
+}
+
+.ContactBg {
+  position: absolute;
+  bottom: 0;
+  z-index: -10;
+  height: 5rem;
+  width: 100%;
+  overflow: hidden;
+}

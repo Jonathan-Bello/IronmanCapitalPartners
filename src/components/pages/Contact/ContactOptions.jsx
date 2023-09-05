@@ -22,7 +22,11 @@ const ContactOptions = () => {
           <img src={iconMail} className="ContactOptions__icon" />
           <div className="ContactOptions__info">
             <h5>E-Mail</h5>
-            <p>raizenman@ironmancapitalpartners.com</p>
+            <p>
+              raizenman@
+              <br className="to-lg" />
+              ironmancapitalpartners.com
+            </p>
           </div>
         </div>
 
