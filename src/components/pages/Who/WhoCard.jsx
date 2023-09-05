@@ -1,3 +1,4 @@
+import { Link } from 'gatsby'
 import React from 'react'
 
 const WhoCard = ({ img, title, subtitle, url }) => {
@@ -7,9 +8,9 @@ const WhoCard = ({ img, title, subtitle, url }) => {
       <div className="WhoCard__content">
         <h3 className="WhoCard__title">{title}</h3>
         <p className="WhoCard__subtitle">{subtitle}</p>
-        <a className="WhoCard__button" href={url}>
+        <Link to={url} className="WhoCard__button">
           View profile
-        </a>
+        </Link>
       </div>
     </article>
   )

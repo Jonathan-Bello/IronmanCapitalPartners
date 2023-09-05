@@ -28,28 +28,28 @@ const SectionTeam = () => {
           img={fotoRicardo}
           title={'Ricardo Aizenman'}
           subtitle={'Chairman'}
-          url={'#'}
+          url={'/ricardo'}
         />
 
         <WhoCard
           img={fotoJohana}
           title={'Johana Sevilla'}
           subtitle={'Operations Manager'}
-          url={'#'}
+          url={'/johana'}
         />
 
         <WhoCard
           img={fotoCristian}
           title={'Cristian Arens'}
           subtitle={'Partner Ironman Capital Partners - Peru'}
-          url={'#'}
+          url={'/cristian'}
         />
 
         <WhoCard
           img={fotoDavid}
           title={'David Aizenman'}
           subtitle={'Next Generation'}
-          url={'#'}
+          url={'/david'}
         />
       </div>
 

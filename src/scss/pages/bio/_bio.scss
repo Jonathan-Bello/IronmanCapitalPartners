@@ -44,16 +44,27 @@
     height: 100%;
     object-fit: cover;
     margin-bottom: 2rem;
+    filter: grayscale(100%);
   }
 
   &__name {
     font-size: 1.75em;
     font-family: 'BD Megatoya Bold';
+
+    @include from(lg) {
+      font-size: 2.5em;
+      margin-bottom: 1rem;
+    }
   }
 
   &__title {
     font-size: 1em;
     font-family: 'BD Megatoya Regular';
+    font-weight: 500;
+    @include from(lg) {
+      font-size: 1.5em;
+      margin-bottom: 2rem;
+    }
   }
 
   &__contact {
@@ -74,13 +85,16 @@
 
       a {
         font-size: 0.9em;
+
+        @include from(lg) {
+          font-size: 1em;
+        }
       }
     }
   }
 
   &__description {
     padding: 1rem;
-
     @include from(m) {
       padding: 2rem 4rem;
     }

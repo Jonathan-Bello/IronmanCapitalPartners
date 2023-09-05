@@ -41,6 +41,11 @@
     text-transform: uppercase;
     padding: 1em 1.2em;
     transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      background-color: var(--color-primary-600);
+      color: white;
+    }
   }
 
   &:hover .WhoCard__button,
