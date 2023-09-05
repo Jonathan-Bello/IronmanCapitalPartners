@@ -13,9 +13,15 @@ const Footer = () => {
 
         <div className="Footer__content lg-cols-2">
           <h4>Contact Us</h4>
-          <p>+1 (786) 367-1643</p>
-          <p>raizenman@ironmancapitalpartners.com</p>
-          <p>FAQ</p>
+          <p>
+            <a href="tel:17863671643">+1 (786) 367-1643</a>
+          </p>
+          <p>
+            <a href="mailto:raizenman@ironmancapitalpartners.com">
+              raizenman@ironmancapitalpartners.com
+            </a>
+          </p>
+          {/* <p>FAQ</p> */}
         </div>
         <div className="Footer__content">
           <h4>Legal</h4>

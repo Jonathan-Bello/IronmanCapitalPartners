@@ -8,7 +8,15 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:hover &__imgTitle {
+    transition: transform 0.3s;
+    transform: scale(0.8); /* Reduce la escala de la imagen al 80% */
+  }
 
   @include from(lg) {
     height: 13rem;
