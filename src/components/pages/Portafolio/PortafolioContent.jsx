@@ -13,7 +13,7 @@ const PortafolioContent = () => {
         text={
           'We don´t just supervise our capital. We are committed to watching it grow over the long term.'
         }
-        urlLink={'/'}
+        urlLink={'#'}
       />
       <PortafolioSectionLooking />
       <AlternativeInvestments />
