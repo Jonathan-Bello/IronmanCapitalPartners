@@ -2,6 +2,7 @@ import React from 'react'
 import PortadaPortfolio from '../../../assets/images/portafolio/PortadaPortfolio.jpg'
 import Banner from '../../Banner/Banner'
 import PortafolioSectionLooking from './PortafolioSectionLooking'
+import AlternativeInvestments from './AlternativeInvestments'
 
 const PortafolioContent = () => {
   return (
@@ -15,6 +16,7 @@ const PortafolioContent = () => {
         urlLink={'/'}
       />
       <PortafolioSectionLooking />
+      <AlternativeInvestments />
     </>
   )
 }

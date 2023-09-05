@@ -1,0 +1,49 @@
+.AlternativeInvestments {
+  background-color: var(--color-grey-900);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+
+  &__content {
+    max-width: 1200px;
+
+    @include from(m) {
+      padding: 2rem 2rem;
+    }
+  }
+
+  &__imgTitle {
+    margin-bottom: 3rem;
+    align-self: flex-start;
+
+    @include from(m) {
+      width: 28rem;
+    }
+
+    @include from(lg) {
+      width: 38rem;
+      margin-bottom: 3.5rem;
+    }
+  }
+
+  &__title {
+    font-size: 1.8em;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-primary-500);
+    margin-bottom: 2rem;
+
+    @include from(lg) {
+      font-size: 2.2em;
+      margin-bottom: 2.25rem;
+    }
+  }
+
+  &__cardcontainer {
+    @include from(lg) {
+      max-width: 1200px !important;
+    }
+  }
+}

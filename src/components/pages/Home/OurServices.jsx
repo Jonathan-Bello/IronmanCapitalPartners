@@ -1,5 +1,4 @@
 import React from 'react'
-// import ourServices from '../../../assets/svg/our-services.svg'
 import ourServices from '../../../assets/images/our-services.png'
 import { Link } from 'gatsby'
 

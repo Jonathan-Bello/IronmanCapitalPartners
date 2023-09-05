@@ -1,0 +1,72 @@
+.PortafolioCard {
+  background-color: white;
+  height: 12rem;
+  width: 100%;
+  padding: 1rem 0.5rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  
+
+  @include from(lg) {
+    height: 13rem;
+  }
+
+  // &__imgTitle {
+  // }
+
+  &__meta {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5rem;
+
+    @include from(lg) {
+      padding: 0.75rem;
+      right: 0;
+      left: 0;
+    }
+
+    &__title {
+      font-family: 'BD Megatoya Medium';
+      color: #9d9d9c;
+      font-size: 1em;
+      margin: 0 0 0.25em;
+    }
+
+    &__progressbar {
+      position: relative;
+      width: 100%;
+      height: 0.5rem;
+      background-color: #9d9d9c;
+      border-radius: 1rem;
+
+      &::before {
+        position: absolute;
+        content: '';
+        width: 80%;
+        background-color: var(--color-primary-500);
+        height: 0.5rem;
+        border-radius: 1rem;
+      }
+    }
+
+    &__porcentaje {
+      font-family: 'BD Megatoya Medium';
+      color: #9d9d9c;
+      font-size: 1em;
+      margin: 0 0 0.25em;
+      align-self: center;
+      justify-self: end;
+    }
+  }
+}
+
+// Generar variantes del porcentaje
+@for $i from 1 through 100 {
+  .PortafolioCard__meta__progressbar--#{$i}::before {
+    width: percentage($i / 100); // Corrección aquí
+  }
+}
