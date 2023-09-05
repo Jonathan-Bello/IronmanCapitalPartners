@@ -1,0 +1,97 @@
+.BioPage {
+  background-color: var(--color-grey-900);
+  color: white;
+  margin: 0;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+  }
+
+  &__adornoIzq {
+    display: none;
+  }
+
+  &__adornoDer {
+    display: none;
+  }
+
+  @include from(lg) {
+    &__content {
+      position: relative;
+      padding-left: 4.5rem;
+    }
+
+    &__adornoIzq {
+      display: block;
+      position: absolute;
+      left: 0;
+      height: 100%;
+    }
+
+    &__adornoDer {
+      display: block;
+      position: absolute;
+      right: 0;
+      height: 100%;
+    }
+  }
+
+  &__photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+  }
+
+  &__name {
+    font-size: 1.75em;
+    font-family: 'BD Megatoya Bold';
+  }
+
+  &__title {
+    font-size: 1em;
+    font-family: 'BD Megatoya Regular';
+  }
+
+  &__contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 0 0 2rem;
+
+    &--item {
+      display: flex;
+      align-items: center;
+      gap: 0.5em;
+
+      img {
+        width: 2em;
+        height: 2em;
+      }
+
+      a {
+        font-size: 0.9em;
+      }
+    }
+  }
+
+  &__description {
+    padding: 1rem;
+
+    @include from(m) {
+      padding: 2rem 4rem;
+    }
+  }
+
+  &__title2 {
+    font-size: 2.5em;
+  }
+
+  &__desc {
+    font-size: 1.2em;
+    line-height: 150%;
+  }
+}
