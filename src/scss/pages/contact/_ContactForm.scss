@@ -3,8 +3,13 @@
   margin: 0;
   padding: 4rem 1rem;
 
-  h2 {
+  h2,
+  h4 {
     color: white;
+  }
+
+  &__message {
+    height: 100%;
   }
 
   &__thanks {

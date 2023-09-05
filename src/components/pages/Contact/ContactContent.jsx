@@ -14,10 +14,6 @@ import bgVerdeMobile from '../../../assets/images/contact/fondo-verde-contacto-M
 const ContactContent = () => {
   const size = useWindowSize()
 
-  useEffect(() => {
-    console.log(size.width)
-  }, [size])
-
   return (
     <div className="ContactContent">
       <BannerSmall
@@ -34,9 +30,9 @@ const ContactContent = () => {
         <ContactOptions />
       </div>
 
-      <div className="ContactMap ed-grid s-grid-1 lg-grid-2">
+      <div className="ContactMap ed-grid s-grid-1 lg-grid-3">
         <img className="ContactMap__title" src={titleImg} alt="our offices" />
-        <img className="ContactMap__map" src={mapaSin} alt="mapa" />
+        <img className="ContactMap__map lg-cols-2" src={mapaSin} alt="mapa" />
       </div>
 
       <img
