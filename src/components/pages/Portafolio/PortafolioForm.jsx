@@ -1,13 +1,13 @@
 import React from 'react'
 import { useForm, ValidationError } from '@formspree/react'
 
-const ContactForm = () => {
-  const [state, handleSubmit] = useForm('xaygjpdo')
+const PortafolioForm = ({ portafolioItem }) => {
+  const [state, handleSubmit] = useForm('mbjvyqoy')
 
   return (
-    <section className="ContactForm">
+    <section className="PortafolioForm">
       {state.succeeded ? (
-        <div className="ContactForm__message s-main-center s-cross-center">
+        <div className="PortafolioForm__message s-main-center s-cross-center">
           <h2 className="s-center">THANK YOU!</h2>
           <h4 className="s-center">
             We have received your message and will be in touch shortly.
@@ -15,10 +15,10 @@ const ContactForm = () => {
         </div>
       ) : (
         <>
-          <h2 className="s-center">CONTACT US!</h2>
+          <h2 className="">LIKE TO INVEST?</h2>
           <form onSubmit={handleSubmit} className="s-main-center">
-            <div className="ed-grid s-grid-1 m-grid-2">
-              <div className="ContactForm__input">
+            <div className="ed-grid s-grid-1 m-grid-2 gap-1">
+              <div className="PortafolioForm__input">
                 <label htmlFor="nombre" hidden>
                   First Name
                 </label>
@@ -36,7 +36,7 @@ const ContactForm = () => {
                 />
               </div>
 
-              <div className="ContactForm__input">
+              <div className="PortafolioForm__input">
                 <label htmlFor="apellido" hidden>
                   Last Name
                 </label>
@@ -54,7 +54,7 @@ const ContactForm = () => {
                 />
               </div>
 
-              <div className="ContactForm__input s-cols-1 m-cols-2">
+              <div className="PortafolioForm__input ">
                 <label htmlFor="email" hidden>
                   Email
                 </label>
@@ -72,7 +72,7 @@ const ContactForm = () => {
                 />
               </div>
 
-              <div className="ContactForm__input s-cols-1 m-cols-2">
+              <div className="PortafolioForm__input">
                 <label htmlFor="tel" hidden>
                   Phone Number
                 </label>
@@ -89,24 +89,25 @@ const ContactForm = () => {
                 />
               </div>
 
-              <div className="ContactForm__input s-cols-1 m-cols-2">
-                <label htmlFor="address" hidden>
-                  Address
+              <div className="PortafolioForm__input s-cols-1 m-cols-2">
+                <label htmlFor="portafolio" hidden>
+                  portafolio
                 </label>
                 <input
-                  id="address"
-                  type="address"
-                  name="address"
-                  placeholder="Address"
+                  id="portafolio"
+                  type="hidden"
+                  name="portafolio"
+                  value={portafolioItem.title}
+                  placeholder="portafolio"
                 />
                 <ValidationError
-                  prefix="address"
-                  field="address"
+                  prefix="portafolio"
+                  field="portafolio"
                   errors={state.errors}
                 />
               </div>
 
-              <div className="ContactForm__input s-cols-1 m-cols-2">
+              <div className="PortafolioForm__input s-cols-1 m-cols-2">
                 <label htmlFor="message" hidden>
                   Message
                 </label>
@@ -121,7 +122,7 @@ const ContactForm = () => {
             </div>
 
             <button
-              className="ContactForm__summitBtn"
+              className="PortafolioForm__summitBtn"
               type="submit"
               disabled={state.submitting}
             >
@@ -134,4 +135,4 @@ const ContactForm = () => {
   )
 }
 
-export default ContactForm
+export default PortafolioForm

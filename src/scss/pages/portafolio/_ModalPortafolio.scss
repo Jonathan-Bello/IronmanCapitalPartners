@@ -76,7 +76,7 @@
 
         @include from(lg) {
           position: absolute;
-          bottom: 0;
+          bottom: 2rem;
         }
       }
     }
@@ -84,7 +84,6 @@
     &__form {
       height: 100%;
       width: 100%;
-      background-color: red;
     }
   }
 }
