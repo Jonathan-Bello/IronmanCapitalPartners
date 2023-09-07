@@ -1,3 +1,4 @@
+import { Link } from 'gatsby'
 import React from 'react'
 
 const PortafolioSectionLooking = () => {
@@ -11,9 +12,12 @@ const PortafolioSectionLooking = () => {
           Contact us and become part of Ironman Partners
         </p>
 
-        <a className="portafolio-section-looking__container__button">
+        <Link
+          to="/contact"
+          className="portafolio-section-looking__container__button"
+        >
           I WANT TO BE PART
-        </a>
+        </Link>
       </div>
 
       <div className="portafolio-section-looking__slogan">

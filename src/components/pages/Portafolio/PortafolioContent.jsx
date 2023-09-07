@@ -9,11 +9,11 @@ const PortafolioContent = () => {
     <>
       <Banner
         img={PortadaPortfolio}
-        title={'WHO WE ARE'}
+        title={'PORTFOLIO'}
         text={
           'We don´t just supervise our capital. We are committed to watching it grow over the long term.'
         }
-        urlLink={'#'}
+        urlLink={'/contact'}
       />
       <PortafolioSectionLooking />
       <AlternativeInvestments />

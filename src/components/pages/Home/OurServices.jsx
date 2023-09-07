@@ -89,7 +89,7 @@ const OurServices = () => {
       <h4 className="OurServices__subtitle s-mb-4">CONTACT US TO KNOW MORE</h4>
       <div className="s-mb-4">
         <Link
-          to="/Contact"
+          to="/contact"
           className="hero__button"
           activeClassName="active"
           partiallyActive={true}

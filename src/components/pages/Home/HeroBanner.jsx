@@ -26,7 +26,7 @@ const HeroBanner = () => {
         </p>
 
         <Link
-          to="/Contact"
+          to="/contact"
           className="hero__button"
           activeClassName="active"
           partiallyActive={true}

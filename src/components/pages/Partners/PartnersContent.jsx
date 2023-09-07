@@ -10,7 +10,7 @@ const PartnersContent = () => {
         img={PortadaPartners}
         title={'IRONMAN PARTNERS'}
         text={'PRIVATE EQUITY ACCELERATOR'}
-        urlLink={'#'}
+        urlLink={'/contact'}
       />
 
       <ParthersSection />

@@ -12,7 +12,7 @@ const WhoContent = () => {
         text={
           'At IRONMAN CAPITAL PARTNERS, we offer attributes of the multi family office: ALIGN INTEREST, SERVICE, EXPERIENCE, AND TRUST.'
         }
-        urlLink={'#'}
+        urlLink={'/contact'}
       />
       <SectionTeam />
     </>

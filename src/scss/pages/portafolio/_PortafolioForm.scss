@@ -48,12 +48,12 @@
 
   &__summitBtn {
     align-self: center;
-    background-color: var(--color-primary-500);
+    background-color: transparent;
+    border: 2px solid white;
     font-family: 'BD Megatoya Bold';
     color: white;
     padding: 0.75rem 3rem;
     border-radius: 0.5em;
-    border: none;
 
     &:hover {
       cursor: pointer;
