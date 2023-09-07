@@ -7,7 +7,7 @@ const CardNews = ({ img, title, description, linkUrl }) => {
       <div className="CardNews__content">
         <h3 className="CardNews__title">{title}</h3>
         <p className="CardNews__description">{description}</p>
-        <a href={linkUrl} className="CardNews__link">
+        <a href={linkUrl} className="CardNews__link" target="_blank">
           Read more
         </a>
       </div>
