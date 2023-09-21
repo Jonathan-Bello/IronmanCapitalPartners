@@ -18,7 +18,7 @@ const portafolioData = {
   VentureCapital: [
     {
       img: logoIronwallet,
-      meta: '$800,000',
+      meta: '800,000',
       porcentaje: 30,
       title: 'IronWallet',
       subtitle: 'VENTURE CAPITAL US MARKET ENTRY',
@@ -27,7 +27,7 @@ const portafolioData = {
     },
     {
       img: logoSnowball,
-      meta: '$800,000',
+      meta: '800,000',
       porcentaje: 40,
       title: 'Snowball',
       subtitle: 'VENTURE CAPITAL US MARKET ENTRY',
@@ -36,7 +36,7 @@ const portafolioData = {
     },
     {
       img: logoSoop,
-      meta: '$800,000',
+      meta: '800,000',
       porcentaje: 50,
       title: 'Soop',
       subtitle: 'VENTURE CAPITAL US MARKET ENTRY',
@@ -45,7 +45,7 @@ const portafolioData = {
     },
     {
       img: logoArthurSons,
-      meta: '$800,000',
+      meta: '800,000',
       porcentaje: 60,
       title: 'Arthur & Sons',
       subtitle: 'VENTURE CAPITAL US MARKET ENTRY',
@@ -54,7 +54,7 @@ const portafolioData = {
     },
     {
       img: logoLaReinaRacilla,
-      meta: '$800,000',
+      meta: '800,000',
       porcentaje: 70,
       title: 'La Reina',
       subtitle: 'VENTURE CAPITAL US MARKET ENTRY',
@@ -63,7 +63,7 @@ const portafolioData = {
     },
     {
       img: logoWoof,
-      meta: '$800,000',
+      meta: '800,000',
       porcentaje: 80,
       title: 'Woof',
       subtitle: 'VENTURE CAPITAL US MARKET ENTRY',
@@ -74,18 +74,18 @@ const portafolioData = {
   IronPreIPO: [
     {
       img: logoManhattan,
-      meta: '$800,000',
+      meta: '800,000',
       porcentaje: 30,
       title: 'Manhattan',
       subtitle: 'IRONMAN PRE IPO',
-      text: 'Manhattan Venture Partners is a mid-stage and Pre -IPO type of asset, which generates between 50% and 60% annual return of investment. The mission is to invest in tomorrow´s IPO´s today. They undercarry fundamental research on private tech companies, being a research-driven merchant bank focused on the secondary market for late-stage, Pre IPO Companies. The majority of MVP’s investments have been through secondary share purchases, providing liquidity to founders, executives, and early investors. MVP and its partners have collectively invested, brokered, or advised on more than $10 billion of transactions in pre-IPO companies. Likewise, MVP has developed a strong track record of investing in late-stage venture-backed private technology companies that are 1-4 years away from an IPO or other liquidity event, allowing investors to venture into some of the most promising companies in the market. The joint venture between Ironman Capital Partners and Manhattan Venture Capital enables us to broaden our reach and provide our insight and high-touch service to an elite group of world-class investors.',
+      text: 'Manhattan Venture Partners is a mid-stage and Pre -IPO type of asset, which generates between 50% and 60% annual return of investment. The mission is to invest in tomorrow´s IPO´s today. They undercarry fundamental research on private tech companies, being a research-driven merchant bank focused on the secondary market for late-stage, Pre IPO Companies. The majority of MVP’s investments have been through secondary share purchases, providing liquidity to founders, executives, and early investors. MVP and its partners have collectively invested, brokered, or advised on more than 10 billion of transactions in pre-IPO companies. Likewise, MVP has developed a strong track record of investing in late-stage venture-backed private technology companies that are 1-4 years away from an IPO or other liquidity event, allowing investors to venture into some of the most promising companies in the market. The joint venture between Ironman Capital Partners and Manhattan Venture Capital enables us to broaden our reach and provide our insight and high-touch service to an elite group of world-class investors.',
       url: 'https://www.mvp.vc/',
     },
   ],
   RealEstate: [
     {
       img: logoGutterman,
-      meta: '$800,000',
+      meta: '800,000',
       porcentaje: 50,
       title: 'Gutterman Parters',
       subtitle: 'IRONMAN SELF STORAGE REAL ESTATE',
@@ -96,7 +96,7 @@ const portafolioData = {
   Aceleration: [
     {
       img: logoBaseMiami,
-      meta: '$800,000',
+      meta: '800,000',
       porcentaje: 50,
       title: 'Base Miami',
       subtitle: 'IRONMAN VENTURE CAPITAL US MARKET ENTRY ACCELERATOR',
@@ -107,27 +107,27 @@ const portafolioData = {
   MVP: [
     {
       img: logoSpaceX,
-      meta: '$800,000',
+      meta: '800,000',
       porcentaje: 50,
     },
     {
       img: logoEpicGames,
-      meta: '$800,000',
+      meta: '800,000',
       porcentaje: 50,
     },
     {
       img: logoAnthropic,
-      meta: '$800,000',
+      meta: '800,000',
       porcentaje: 50,
     },
     {
       img: logoInstacart,
-      meta: '$800,000',
+      meta: '800,000',
       porcentaje: 50,
     },
     {
       img: logoKlarna,
-      meta: '$800,000',
+      meta: '800,000',
       porcentaje: 50,
     },
   ],

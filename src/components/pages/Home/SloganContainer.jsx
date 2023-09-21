@@ -1,23 +1,28 @@
 import React from 'react'
-import bgMobile from '../../../assets/images/bgMobile.jpg'
-import bgDesk from '../../../assets/images/bgDesk.jpg'
 import useWindowSize from '../../../hooks/useWindowSize'
+import { Link } from 'gatsby'
 
 const SloganContainer = () => {
   const windowSize = useWindowSize()
 
   return (
     <section className="SloganContainer">
-      <img
-        className="SloganContainer__bg"
-        src={windowSize.width > 768 ? bgDesk : bgMobile}
-        alt="bg"
-      />
       <p className="SloganContainer__text">
-        <b>IRONMAN CAPITAL PARTNERS</b> offers attractive and unique{' '}
-        <b>INVESTMENT OPPORTUNITIES</b> that adapt to all kinds of{' '}
-        <b>CLIENTS AND FINANCIAL GOALS.</b>
+        <b>IRONMAN CAPITAL PARTNERS</b> crafts attractive and tailor-made
+        investment opportunities suitable for a diverse array of clients and
+        financial aspirations.
       </p>
+
+      <h3 className="SloganContainer__title">INTERESTED IN JOINING US?</h3>
+      <p className="SloganContainer__text">
+        IRONMAN CAPITAL PARTNERS crafts attractive and tailor-made investment
+        opportunities suitable for a diverse array of clients and financial
+        aspirations.
+      </p>
+
+      <Link className="SloganContainer__button" to="/contact">
+        I WANT TO BE PART
+      </Link>
     </section>
   )
 }

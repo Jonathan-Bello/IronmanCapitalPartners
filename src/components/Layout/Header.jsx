@@ -17,14 +17,14 @@ const Header = () => {
       setShowMenu(true)
     }
 
-    if (windowSize.width <= 768) {
-      // si showMenu es true, bloquear scroll vertical
-      if (showMenu) {
-        document.body.style.overflow = 'hidden'
-      } else {
-        document.body.style.overflow = 'unset'
-      }
-    }
+    // if (windowSize.width <= 768) {
+    //   // si showMenu es true, bloquear scroll vertical
+    //   if (showMenu) {
+    //     document.body.style.overflow = 'hidden'
+    //   } else {
+    //     document.body.style.overflow = 'unset'
+    //   }
+    // }
   }, [windowSize, showMenu])
 
   return (

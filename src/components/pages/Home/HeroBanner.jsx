@@ -16,13 +16,7 @@ const HeroBanner = () => {
         />
 
         <p className="hero__text">
-          <b>IRONWALLET</b> is a digital banking platform that is the gateway to
-          a broad spectrum of investment opportunities. IronWallet is not just a
-          digital private bank but an all-encompassing financial solution for
-          the tech-savvy generation. It combines premium banking and wealth
-          management services, covering everything from savings accounts to
-          commercial paper S&P, private equity in small and medium enterprises,
-          and real estate.
+          <b>IRONWALLET</b> is a state-of-the-art digital banking platform, providing unparalleled access to a broad range of most advanced Digital Banking, Access & Investing in Liquid AI mandates and Alternative Fractional low ticket Private Equity as unique closed investment opportunities for accredited and non acredited Crowdfunding investors. More than just a digital Investment and private bank, IronWallet serves as a holistic financial solution tailored for the tech-savvy generation. It seamlessly merges premium banking with comprehensive wealth management services, ranging from savings accounts to S&P commercial paper, private equity in SMEs, and real estate investments. Fractional Investments as low as $111.00 USD
         </p>
 
         <Link
