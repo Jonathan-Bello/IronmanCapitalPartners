@@ -7,51 +7,64 @@ const OurServices = () => {
     <section className="OurServices">
       <img className="OurServices__img" src={ourServices} alt="ourServices" />
       <p className="OurServices__subtext">
-        Learn more about how can <b> IRONMAN CAPITAL PARTNERS</b> help you
-        <b>supervise your capital and make it grow</b> over the long term.
+        Discover how <b>IRONMAN CAPITAL PARTNERS</b> can expertly manage and
+        grow your capital over the long haul.
       </p>
       <h3 className="OurServices__title">SOFTLANDING ACCEL</h3>
       <p className="OurServices__text">
-        Ironman angels & VC Softlanding and Acceleration 6 and 9 months programa
-        in the Journey of Latin American, European and Caribbean Startups
-        entering the U.S. and Global Markets.
+        Angel Investors & Venture Capital introduces a Softlanding and
+        Acceleration program spanning 5 weeks to 9 months, crafted for Latin
+        American, European, and Caribbean Startups looking to make their mark in
+        the U.S. and global markets.
       </p>
       <h4 className="OurServices__subtitle">THE ACCELERATOR PROGRAM & FUND</h4>
       <p className="OurServices__text">
-        Ironman VC is a comprehensive accelerator program and fund strategically
-        positioned to drive the expansion of Latin American , European and
-        Caribbean tech and consumer companies into the U.S. market. This is
-        accomplished through a combination of virtual and in-situ educational,
-        acceleration/soft-landing programs, uniquely tailored for one-on-one
-        3-4-year-old profitable startups, groups of sustainable startups, or via
-        collaborations with government agencies, NGOs, VCs, and corporates.
+        The Accelerator Program & FundIronman VC represents a holistic
+        accelerator program and fund, strategically poised to usher Latin
+        American, European, and Caribbean tech and consumer ventures into the
+        U.S. market. This initiative melds virtual and in-person educational and
+        acceleration programs, tailored specifically for thriving startups aged
+        3-4 years, sustainable startup groups, or through collaborations with
+        government entities, NGOs, VCs, and corporate partnerships. Funding and
+        Bootstrapping, we recognize the unique challenges faced by mature
+        startups as they navigate cross-border expansion. To support these
+        ventures, Ironman VC offers two distinct funding rounds, designed to
+        provide the financial foundation and strategic guidance essential for
+        successful market penetration. Our agenda is meticulously crafted to
+        minimize investment risks associated with adoption, ensuring startups
+        are well-positioned to tackle and surmount the barriers commonly
+        encountered in foreign markets. By focusing on key success factors and
+        leveraging the talents of our in-house team, we streamline the startup
+        journey. This emphasis ensures that only the most prepared and adaptable
+        enterprises move forward to the finalist stage, poised to attempt U.S.
+        market penetration with confidence.
       </p>
       <h4 className="OurServices__subtitle">TARGET INDUSTRIES</h4>'
       <p className="OurServices__text">
-        The target sectors for the program encompass technology, consumer
-        products, fintech, food tech, and the health and Blue Economy, among
-        others.
+        We focus on a myriad of sectors, including technology, consumer
+        products, fintech, food tech, the health sector, and the Blue Economy,
+        among others.
       </p>
       <h4 className="OurServices__subtitle">THE INVESTMENT PARAMETERS</h4>
       <p className="OurServices__text">
-        The program has a minimum fund limit of 10M USD and a cap of 20M USD,
-        with an expected fund duration of 6+2 years. The management fee stands
-        at 3.5%, with a 20% carry, and a 1% Founders Fee. With an expected IRR
-        of {'>'}30%, a hurdle of 8%, and an average round of 100K, the program
-        seeks to make approximately 80 investments, acquiring an equity stake of
-        between 2%-10%.
+        The program boasts a minimum fund threshold of 10M USD and is capped at
+        20M USD. With a projected fund duration of 6+2 years, we charge a 3.5%
+        management fee and offer a 20% carry alongside a 1% Founders Fee. With
+        an expected IRR surpassing 30%, an 8% hurdle, and an average round
+        pegged at 100K, we aim for around 80 investments, acquiring equity
+        ranging between 2% to 7% options to invest at present value.
       </p>
       <h4 className="OurServices__subtitle">
         THE U.S., EUROPEAN, MARKET ENTRY AND THE LATIN AMERICAN OPPORTUNITY
       </h4>
       <p className="OurServices__text">
-        The Hispanic Latin American market presents a compelling opportunity for
-        venture capital. In 2022, global venture funding was $445 billion, with
-        VC investment in Latin America showing an eight-fold increase since
-        2016. Ironman VC Base Miami & Mana Tech, in response to this dynamic
-        growth, was designed to introduce companies to the Miami business
-        ecosystem, offering key resources for successful entry into the U.S. and
-        Global markets from the USA.urities.
+        The Hispanic Latin American market is ripe for venture capital
+        exploration. In 2022 alone, global venture funding amounted to $445
+        billion. VC investment in Latin America has grown eight-fold since 2016.
+        Ironman VC Base Miami & Mana Tech, acknowledging this exponential
+        growth, seeks to assimilate companies within the Miami business realm,
+        providing pivotal resources for successful forays into both U.S. and
+        global markets.
       </p>
       <h4 className="OurServices__subtitle">THE TEAM AND NETWORK</h4>
       <p className="OurServices__text">
@@ -64,29 +77,27 @@ const OurServices = () => {
         PROGRAM STRUCTURE AND EVALUATION CRITERIA
       </h4>
       <p className="OurServices__text">
-        The program's duration is 6 weeks, and there’s re finalist 9 months boot
-        camp 🏕️ VC starting with an introduction to the American market and
-        self-diagnostic tools. The subsequent weeks focus on capital raising
-        plans, legal analysis, identifying target markets, strategic market
-        entry planning, pitch training, and finally, face-to-face, individual,
-        and group investment workshops, gets you to partner with US and move
-        forward as one cell bringing hundreds of real cases doing best efforts
-        to surpass impact and joint partners goals. Sustainability and proven
-        break even models 3-4 year late Startups are evaluated on the basis of
-        scalability, team strength, repeatability of the business model,
-        uniqueness, potential revenue, and societal impact, among other factors
-        on Sustainability Development Goals.
+        Our program lasts for 6 weeks, concluding with a comprehensive 9-month
+        boot camp. It commences with an orientation to the American market and
+        diagnostic tools. Subsequent weeks delve into capital-raising
+        strategies, legal considerations, target market identification,
+        strategic market entry planning, pitch training, and culminates in
+        in-depth individual and group investment workshops. Our focus is to
+        unify and move forward, tackling real-world scenarios to exceed our
+        collective impact and goals. Startup evaluation hinges on scalability,
+        team dynamics, business model repeatability, innovation, revenue
+        potential, and societal impact, aligned with the Sustainability
+        Development Goals.
       </p>
       <h4 className="OurServices__subtitle">KEY TO SUCCESS AND PARTNERSHIPS</h4>
       <p className="OurServices__text">
-        Ironman VC offers a "learning by doing" methodology to companies looking
-        to internationalize their product and penetrate the U.S. market. The
-        company also has important connections with different market players in
-        Miami, including banks, government, universities, accelerators,
-        developers, foundations, chambers of commerce, and others, ensuring a
-        well-rounded support system for the startups they help grow.
+        Ironman VC employs a hands-on “learning by doing” approach for companies
+        aiming to globalize their products and penetrate the U.S. market. Our
+        expansive network in Miami, spanning banks, governments, educational
+        institutions, accelerators, developers, foundations, and chambers of
+        commerce, ensures comprehensive support for the startups we nurture.
       </p>
-      <h4 className="OurServices__subtitle s-mb-4">CONTACT US TO KNOW MORE</h4>
+      <h4 className="OurServices__subtitle s-mb-4">DESIRE MORE INFORMATION?</h4>
       <div className="s-mb-4">
         <Link
           to="/contact"
