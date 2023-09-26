@@ -10,7 +10,7 @@ const WhoContent = () => {
         img={PortadaWho}
         title={'WHO WE ARE'}
         text={
-          'At IRONMAN CAPITAL PARTNERS, we offer attributes of the multi family office: ALIGN INTEREST, SERVICE, EXPERIENCE, AND TRUST.'
+          'IRONMAN CAPITAL PARTNERS embodies the hallmark traits of a multi-family office, characterized by synchronized interests, elite services, unmatched experience, and unwavering trust.'
         }
         urlLink={'/contact'}
       />

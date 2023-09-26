@@ -5,6 +5,7 @@ import fotoRicardo from '../../../assets/images/who/foto-ricardo.jpg'
 import fotoJohana from '../../../assets/images/who/foto-johana.jpg'
 import fotoCristian from '../../../assets/images/who/foto-cristian.jpg'
 import fotoDavid from '../../../assets/images/who/foto-david.jpg'
+import fotoAditya from '../../../assets/images/who/foto-aditya.jpg'
 
 import logoExperienceClub from '../../../assets/images/who/logo-experience-club.jpg'
 import logoIeBusinessSchool from '../../../assets/images/who/logo-ie-business-school.jpg'
@@ -12,18 +13,17 @@ import logoIeUniversity from '../../../assets/images/who/logo-ie-university.jpg'
 import logoAACSB from '../../../assets/images/who/logo-AACSB.jpg'
 import logoSouth from '../../../assets/images/who/logo-south.jpg'
 
-import bgLogosMobile from '../../../assets/images/who/bgLogosMobile.jpg'
-import bgLogosDesk from '../../../assets/images/who/bgLogosDesk.jpg'
-
 const SectionTeam = () => {
   return (
     <section className="SectionTeam">
       <p className="SectionTeam__text ed-grid">
-        Our team’s decades of combined supervisory expertise help guarantee our
-        clients the lowest costs and a clearer understanding of their finances.
+        With a reservoir of collective expertise spanning decades, our team
+        pledges minimal expenses for our clients, coupled with transparent
+        insights into their financial trajectory.
       </p>
 
-      <div className="SectionTeam__team ed-grid s-grid-1 m-grid-2 lg-grid-4">
+      <h3 className="SectionTeam__title">KEY MEMBERS</h3>
+      <div className="SectionTeam__team">
         <WhoCard
           img={fotoRicardo}
           title={'Ricardo Aizenman'}
@@ -37,11 +37,20 @@ const SectionTeam = () => {
           subtitle={'Operations Manager'}
           url={'/johana'}
         />
+      </div>
 
+      <h3 className="SectionTeam__title">PARTNERS</h3>
+      <div className="SectionTeam__team">
         <WhoCard
           img={fotoCristian}
           title={'Cristian Arens'}
           subtitle={'Partner Ironman Capital Partners - Peru'}
+          url={'/cristian'}
+        />
+        <WhoCard
+          img={fotoAditya}
+          title={'Cristian Arens'}
+          subtitle={'EMEA - Madrid Office'}
           url={'/cristian'}
         />
 
@@ -53,23 +62,24 @@ const SectionTeam = () => {
         />
       </div>
 
+      <h3 className="SectionTeam__title">ABOUT US</h3>
       <p className="SectionTeam__text ed-grid">
-        Ironman, headquartered in Miami, Florida, with a strong presence in
-        Mexico City, is a pioneer in the fintech space, carrying over two
-        decades of unrivaled expertise in the global financial and fintech
-        sector. Our proprietary platform is designed to revolutionize wealth
-        management and redefine the banking experience for the digital-native
-        generation. Ironman stands apart by channeling investment opportunities
-        exclusively through industry-leading joint venture partners. We offer
-        access to high-potential prospects, including pre-IPO investments,
-        venture capital funds, and acceleration programs, all by leveraging our
-        partner platforms' broker-dealer, investment banking, and crowdfunding
-        licensed services. Our key focus regions are the thriving markets of the
-        USA and Latin America.
+        With our strategic nexus in Miami, Florida, and a robust presence in
+        Mexico City, Ironman pioneers the fintech frontier. Our rich legacy,
+        spanning over two decades in global finance and fintech, amplifies our
+        commitment to reimagining wealth management paradigms. Ironman’s
+        distinction lies in its strategy of exclusively curating investment
+        prospects through blue-chip joint venture collaborations. Our extensive
+        portfolio encompasses pre-IPO ventures, venture capital endeavors, and
+        accelerator programs, facilitated through our accredited partner
+        platforms. With our sights set on the burgeoning markets of the USA and
+        Latin America, Ironman’s visionary approach fuses the founder’s
+        disruptive leadership with the team’s agile methodologies, catering to
+        the evolving market demands.
       </p>
 
       <div className="SectionTeam__network">
-        <h2 className="SectionTeam__network-title">NETWORK</h2>
+        <h2 className="SectionTeam__network-title">NETWORK PARTNERS</h2>
         <div className="SectionTeam__network-logos ed-grid s-grid-1 lg-grid-5 s-main-center s-cross-center">
           <img src={logoExperienceClub} alt="logo experience club" />
           <img src={logoAACSB} alt="logo aac sb" />

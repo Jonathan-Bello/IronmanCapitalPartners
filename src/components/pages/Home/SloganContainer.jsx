@@ -15,9 +15,7 @@ const SloganContainer = () => {
 
       <h3 className="SloganContainer__title">INTERESTED IN JOINING US?</h3>
       <p className="SloganContainer__text">
-        IRONMAN CAPITAL PARTNERS crafts attractive and tailor-made investment
-        opportunities suitable for a diverse array of clients and financial
-        aspirations.
+        Complete the form to become a part of our exclusive clientele.
       </p>
 
       <Link className="SloganContainer__button" to="/contact">

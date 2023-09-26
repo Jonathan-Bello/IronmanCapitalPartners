@@ -79,7 +79,9 @@
 
   @include from(lg) {
     background-image: url('/img/background-are-you-a-companyDesk.jpg');
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
+    background-position: center;
+    background-size: 100% 100%;
   }
 
   &__bg {
@@ -107,10 +109,18 @@
       max-width: 768px;
       font-size: 1.3rem;
     }
+
+    @include from(lg) {
+      font-size: 1em;
+      margin: 0;
+    }
   }
 
   &__title {
     font-size: 1.5em;
+    @include from(lg) {
+      font-size: 1.25em;
+    }
   }
 
   &__button {

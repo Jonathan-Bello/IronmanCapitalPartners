@@ -1,0 +1,32 @@
+.PartherList {
+  background-color: white;
+  padding: 5rem 4rem 2rem;
+  margin: 0;
+  position: relative;
+
+  &__content {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__title--blue {
+    @include etiquetaTitle;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-primary-500);
+    text-transform: uppercase;
+  }
+
+  &__title--black {
+    @include etiquetaTitle;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-grey-900);
+    text-transform: uppercase;
+  }
+}

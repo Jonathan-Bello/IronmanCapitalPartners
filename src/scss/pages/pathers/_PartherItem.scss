@@ -5,12 +5,13 @@
     font-family: 'BD Megatoya Bold';
     font-size: 1.5em;
     color: white;
-    background-color: var(--color-primary-500);
+    background-color: #001689;
     padding: 1rem;
     margin: 0;
-
+    clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0 100%, 0 0);
     @include from(lg) {
       padding: 1rem 4rem;
+      display: inline-block;
     }
   }
 
