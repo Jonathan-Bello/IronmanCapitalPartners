@@ -59,4 +59,11 @@
       cursor: pointer;
     }
   }
+
+  &__linkCalendly {
+    color: white;
+    font-family: 'BD Megatoya Regular';
+    font-size: 1em;
+    text-decoration: underline;
+  }
 }

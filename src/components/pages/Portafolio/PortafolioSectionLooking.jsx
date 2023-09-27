@@ -17,7 +17,7 @@ const PortafolioSectionLooking = () => {
           to="/contact"
           className="portafolio-section-looking__container__button"
         >
-          I WANT TO BE PART
+          LEARN MORE
         </Link>
       </div>
 

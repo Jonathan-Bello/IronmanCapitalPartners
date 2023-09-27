@@ -131,6 +131,13 @@ const PortafolioForm = ({ portafolioItem }) => {
           </form>
         </>
       )}
+
+      <a
+        href="https://calendly.com/ironmancapitalpartnersvc/ironman-consulting?month=2023-09"
+        className="PortafolioForm__linkCalendly"
+      >
+        Or schedule your meeting with Calendly
+      </a>
     </section>
   )
 }
