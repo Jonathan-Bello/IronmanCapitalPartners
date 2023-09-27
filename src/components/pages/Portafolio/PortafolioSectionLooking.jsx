@@ -1,7 +1,10 @@
 import { Link } from 'gatsby'
-import React from 'react'
+import React, { useState } from 'react'
+import ModalReadMore from './ModalReadMore'
 
 const PortafolioSectionLooking = () => {
+  const [showModal, setShowModal] = useState(false)
+
   return (
     <section className="portafolio-section-looking">
       <div className="portafolio-section-looking__container">
@@ -14,7 +17,8 @@ const PortafolioSectionLooking = () => {
         </p>
 
         <Link
-          to="/contact"
+          to="#open"
+          onClick={() => setShowModal(true)}
           className="portafolio-section-looking__container__button"
         >
           LEARN MORE
@@ -29,6 +33,8 @@ const PortafolioSectionLooking = () => {
           returns. Discover more about them and begin growing your wealth today.
         </p>
       </div>
+
+      {showModal && <ModalReadMore title={'Bob'} setShowModal={setShowModal} />}
     </section>
   )
 }

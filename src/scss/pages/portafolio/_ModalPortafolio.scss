@@ -42,6 +42,17 @@
       }
     }
 
+    &--readmore {
+      display: flex;
+      align-items: start;
+      justify-content: center;
+      @include from(lg) {
+        align-items: center;
+        width: 70%;
+        padding: 0rem 4rem;
+      }
+    }
+
     @include from(lg) {
       height: 80%;
     }
