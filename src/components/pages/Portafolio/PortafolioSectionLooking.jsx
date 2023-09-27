@@ -6,10 +6,11 @@ const PortafolioSectionLooking = () => {
     <section className="portafolio-section-looking">
       <div className="portafolio-section-looking__container">
         <h2 className="portafolio-section-looking__container__title">
-          ARE YOU ACOMPANY LOOKING FOR INVESTMENT?
+          ARE YOU A COMPANY SEEKING INVESTMENT OR DEBT?
         </h2>
         <p className="portafolio-section-looking__container__text">
-          Contact us and become part of Ironman Partners
+          Contact us and become a part of Ironman Partners selected mentoring
+          and partnership programs.
         </p>
 
         <Link
@@ -22,10 +23,10 @@ const PortafolioSectionLooking = () => {
 
       <div className="portafolio-section-looking__slogan">
         <p className="portafolio-section-looking__slogan__text">
-          <b>IRONMAN CAPITAL PARTNERS</b> has teamed with <b>market-leading</b>{' '}
-          alternative investments which are <b>US leaders</b>, focused on
-          delivering consistent and superior risk-adjusted returns. Learn more
-          about them and <b>start growing your money today.</b>
+          <b>IRONMAN CAPITAL PARTNERS</b> has collaborated with global
+          market-leading alternative access investments, which are leaders in
+          the US, aiming to provide consistent and superior risk-adjusted
+          returns. Discover more about them and begin growing your wealth today.
         </p>
       </div>
     </section>

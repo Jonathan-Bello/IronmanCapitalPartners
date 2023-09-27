@@ -22,7 +22,7 @@ const AlternativeInvestments = () => {
           alt="imgTitle"
         />
         <h4 className="AlternativeInvestments__title">
-          Alternative Investments
+          VENTURE CAPITAL US MARKET ENTRY
         </h4>
         <div className="AlternativeInvestments__cardcontainer ed-grid full s-grid-1 m-grid-2 l-grid-3 s-mb-4">
           {data.VentureCapital.map((item, index) => (
@@ -35,7 +35,9 @@ const AlternativeInvestments = () => {
         </div>
         <br />
 
-        <h4 className="AlternativeInvestments__title">IRONMAN PRE IPO</h4>
+        <h4 className="AlternativeInvestments__title">
+          IRONMAN PRE IPO INVESTMENT OPPORTUNITIES
+        </h4>
         <div className="AlternativeInvestments__cardcontainer ed-grid full s-grid-1 m-grid-3 l-grid-3 s-mb-4">
           <div className="m-x-2">
             <PortafolioCard
@@ -99,6 +101,13 @@ const AlternativeInvestments = () => {
         </div>
         <br />
       </div>
+
+      <p className="PortafolioAgradecimiento">
+        Thank you for considering Ironman’s diverse and promising investment
+        opportunities. We look forward to partnering with visionaries and
+        forward-thinkers eager to shape the future. Your journey towards
+        impactful investments begins here.
+      </p>
 
       {showModal && (
         <ModalPortafolio {...currectCard} setShowModal={setShowModal} />

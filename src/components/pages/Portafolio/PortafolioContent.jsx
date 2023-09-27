@@ -11,7 +11,7 @@ const PortafolioContent = () => {
         img={PortadaPortfolio}
         title={'PORTFOLIO'}
         text={
-          'We don´t just supervise our capital. We are committed to watching it grow over the long term.'
+          'We don’t merely supervise our investors and partners capital. We are committed to ensuring its long-term growth!'
         }
         urlLink={'/contact'}
       />
