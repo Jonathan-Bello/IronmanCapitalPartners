@@ -9,12 +9,12 @@ import iconiLinkedin from '../assets/icons/iconlinkedin.svg'
 import adornoIzq from '../assets/images/bios/bioIzq.png'
 import adornoDer from '../assets/images/bios/bioDer.png'
 
-const RicardoPage = () => {
+const DavidPage = () => {
   return (
     <Layout>
       <section className="BioPage">
-        <div className="ed-grid full s-grid-1 m-grid-2 lg-grid-3">
-          <img className="BioPage__photo" src={fotoBio} alt="Ricardo" />
+        <div className="ed-grid full s-grid-1 m-grid-2 lg-grid-3 gap-0">
+          <img className="BioPage__photo" src={fotoBio} alt="David" />
 
           <div className="BioPage__content lg-cols-2">
             <img
@@ -29,7 +29,10 @@ const RicardoPage = () => {
               alt="adornoDer"
             />
             <h1 className="BioPage__name">David Aizenman</h1>
-            <h2 className="BioPage__title">Next Generation</h2>
+            <h2 className="BioPage__title">
+              Next Generation and Finance Undergrad Alumni at George Washington
+              University
+            </h2>
             <div className="BioPage__contact">
               <div className="BioPage__contact--item">
                 <img src={iconEmail} alt="email" />
@@ -60,20 +63,13 @@ const RicardoPage = () => {
         <div className="BioPage__description">
           <h2 className="BioPage__title2">BIOGRAPHY</h2>
           <p className="BioPage__desc">
-            David Aizenman is an ambitious 17-year sophomore attending Don
-            Soffer Highschool. Mr. Aizenman is a volunteer for the Cadena
-            Foundation, an NGO dedicated to humanitarian aid. He trades call
-            options on the U.S. stock market backed by an escrow account. He is
-            the next generation focused on Tech, NFTs, and investing in art
-            collectibles. In addition, David is working at Ironman Capital
-            Partners Family Office as a web designer developer and providing
-            team support where needed while gaining experience in the family
-            business. Mr. Aizenman was born in Mexico and grew up in Miami, Fl,
-            where he lives with his parents and his two sisters. Currently, he
-            is about to graduate from high school and will study at GW
-            University in Washington, D.C. David is fluent in English, Spanish,
-            and Hebrew. He enjoys sports, traveling, and spending time with his
-            friends.
+            David Aizenman, having graduated from Don Soffer Highschool, now
+            explores the realms of Finance at George Washington University.
+            Besides volunteering for the Cadena Foundation, David is active in
+            the stock market and is deeply engaged with tech, NFTs, and art
+            collectibles. He also aids Ironman Capital Partners with web
+            development. Born in Mexico and raised in Miami, David fluently
+            speaks English, Spanish, and Hebrew.
           </p>
         </div>
       </section>
@@ -82,4 +78,4 @@ const RicardoPage = () => {
   )
 }
 
-export default RicardoPage
+export default DavidPage

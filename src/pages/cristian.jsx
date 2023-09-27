@@ -9,11 +9,11 @@ import iconiLinkedin from '../assets/icons/iconlinkedin.svg'
 import adornoIzq from '../assets/images/bios/bioIzq.png'
 import adornoDer from '../assets/images/bios/bioDer.png'
 
-const RicardoPage = () => {
+const CristianPage = () => {
   return (
     <Layout>
       <section className="BioPage">
-        <div className="ed-grid full s-grid-1 m-grid-2 lg-grid-3">
+        <div className="ed-grid full s-grid-1 m-grid-2 lg-grid-3 gap-0">
           <img className="BioPage__photo" src={fotoBio} alt="Ricardo" />
 
           <div className="BioPage__content lg-cols-2">
@@ -62,11 +62,18 @@ const RicardoPage = () => {
         <div className="BioPage__description">
           <h2 className="BioPage__title2">BIOGRAPHY</h2>
           <p className="BioPage__desc">
-            Cristian is a young entrepreneur and investor with more than 10
-            years of experience in the business world. He is currently dedicated
-            to teaching how to make your money work for you. This passion began
-            with the need to help change the mentality that he had seen in many
-            people in his country and Latin America.
+            Cristian Arens embodies entrepreneurial spirit and investment
+            insight. With a decade dedicated to reshaping financial paradigms
+            across Latin America, he envisions a world where financial literacy
+            reigns supreme.
+          </p>
+
+          <p className="BioPage__desc">
+            Ironman Capital Partners proudly collaborates with three esteemed
+            International MBA alumni from IE Business School in the Andina
+            Region, Latam. This dynamic synergy, coupled with a diverse talent
+            pool from regions such as Madrid and India, encapsulates Ironman’s
+            global vision and commitment to financial excellence.
           </p>
         </div>
       </section>
@@ -75,4 +82,4 @@ const RicardoPage = () => {
   )
 }
 
-export default RicardoPage
+export default CristianPage
