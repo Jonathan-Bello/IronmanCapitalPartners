@@ -50,7 +50,7 @@ const AdityaPage = () => {
               <div className="BioPage__contact--item">
                 <img src={iconiLinkedin} alt="linkedin" />
                 <a
-                  href="https://www.linkedin.com/in/Aditya-aizenman-7519074"
+                  href="http://linkedin.com/in/adityamalhotra"
                   target="_blank"
                   rel="noreferrer"
                 >
