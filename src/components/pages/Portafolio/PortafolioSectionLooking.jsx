@@ -1,9 +1,18 @@
 import { Link } from 'gatsby'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import ModalReadMore from './ModalReadMore'
 
 const PortafolioSectionLooking = () => {
   const [showModal, setShowModal] = useState(false)
+
+  useEffect(() => {
+    // si showMenu es true, bloquear scroll vertical
+    if (showModal) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = 'unset'
+    }
+  }, [showModal])
 
   return (
     <section className="portafolio-section-looking">

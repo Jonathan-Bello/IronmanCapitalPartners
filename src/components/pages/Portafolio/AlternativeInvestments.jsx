@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import imgTitle from '../../../assets/images/portafolio/alterative-investments.png'
 import data from './portafolio'
 import PortafolioCard from './PortafolioCard'
@@ -12,6 +12,15 @@ const AlternativeInvestments = () => {
     setCurrectCard(card)
     setShowModal(true)
   }
+
+  useEffect(() => {
+    // si showMenu es true, bloquear scroll vertical
+    if (showModal) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = 'unset'
+    }
+  }, [showModal])
 
   return (
     <section className="AlternativeInvestments">
