@@ -25,10 +25,10 @@ const HeaderNav = ({ showMenu, setShowMenu }) => {
         <Link to="/contact">Contact</Link>
       </div>
 
-      <select className="HeaderNav__Select">
+      {/* <select className="HeaderNav__Select">
         <option value="es">ES</option>
         <option value="en">EN</option>
-      </select>
+      </select> */}
     </nav>
   )
 }
