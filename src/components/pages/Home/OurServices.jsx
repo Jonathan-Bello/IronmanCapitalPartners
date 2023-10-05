@@ -39,7 +39,7 @@ const OurServices = () => {
         enterprises move forward to the finalist stage, poised to attempt U.S.
         market penetration with confidence.
       </p>
-      <h4 className="OurServices__subtitle">TARGET INDUSTRIES</h4>'
+      <h4 className="OurServices__subtitle">TARGET INDUSTRIES</h4>
       <p className="OurServices__text">
         We focus on a myriad of sectors, including technology, consumer
         products, fintech, food tech, the health sector, and the Blue Economy,
