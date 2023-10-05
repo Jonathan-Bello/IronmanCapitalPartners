@@ -51,7 +51,7 @@ const SectionTeam = () => {
           img={fotoAditya}
           title={'Aditya Malhotra'}
           subtitle={'EMEA - Madrid Office'}
-          url={'/cristian'}
+          url={'/aditya'}
         />
 
         <WhoCard
