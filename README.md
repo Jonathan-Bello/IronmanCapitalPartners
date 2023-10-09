@@ -9,4 +9,4 @@ Tecnologias usadas:
 - Sass
 - EDgrid
 
-Por YGU COMUNICAXIONS BY Jonathan Alexis Bello López
+Por YGU COMUNICAXIONS
