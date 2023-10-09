@@ -34,7 +34,7 @@ const SectionTeam = () => {
         <WhoCard
           img={fotoJohana}
           title={'Johana Sevilla'}
-          subtitle={'Operations Manager'}
+          subtitle={'Operations and Investor Relations Manager'}
           url={'/johana'}
         />
       </div>
