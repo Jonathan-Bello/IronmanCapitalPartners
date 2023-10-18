@@ -4,6 +4,7 @@ import Banner from '../../Banner/Banner'
 import PortadaPartners from '../../../assets/images/PortadaPartners.jpg'
 import ParthersSection from './ParthersSection'
 import PartherList from './PartherList'
+import ParthersDanger from './ParthersDanger'
 
 const PartnersContent = () => {
   return (
@@ -15,14 +16,14 @@ const PartnersContent = () => {
         urlLink={'/contact'}
       />
 
-      <ParthersSection />
+      <ParthersDanger />
 
+      <ParthersSection />
       <PartherList
         color={'blue'}
         title={'Portafolio'}
         list={data.partherPortafolio}
       />
-
       <PartherList color={'black'} title={'Exit'} list={data.partherExit} />
     </>
   )
