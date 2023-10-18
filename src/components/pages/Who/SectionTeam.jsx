@@ -32,16 +32,6 @@ const SectionTeam = () => {
         />
 
         <WhoCard
-          img={fotoJohana}
-          title={'Johana Sevilla'}
-          subtitle={'Operations and Investor Relations Manager'}
-          url={'/johana'}
-        />
-      </div>
-
-      <h3 className="SectionTeam__title">PARTNERS</h3>
-      <div className="SectionTeam__team">
-        <WhoCard
           img={fotoCristian}
           title={'Cristian Arens'}
           subtitle={'Partner Ironman Capital Partners - Peru'}
@@ -52,6 +42,16 @@ const SectionTeam = () => {
           title={'Aditya Malhotra'}
           subtitle={'EMEA - Madrid Office'}
           url={'/aditya'}
+        />
+      </div>
+
+      <h3 className="SectionTeam__title">PARTNERS</h3>
+      <div className="SectionTeam__team">
+        <WhoCard
+          img={fotoJohana}
+          title={'Johana Sevilla'}
+          subtitle={'Operations and Investor Relations Manager'}
+          url={'/johana'}
         />
 
         <WhoCard

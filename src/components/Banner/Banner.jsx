@@ -8,7 +8,7 @@ const Banner = ({ title, text, urlLink, img }) => {
 
       <div className="banner__content">
         <h3 className="banner__title">{title}</h3>
-        <p className="banner__text">{text}</p>
+        <p className="banner__text" dangerouslySetInnerHTML={{ __html: text }}  />
         <div className="s-mb-4">
           <Link
             to={urlLink}

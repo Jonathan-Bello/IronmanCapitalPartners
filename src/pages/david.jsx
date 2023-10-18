@@ -36,25 +36,21 @@ const DavidPage = () => {
             <div className="BioPage__contact">
               <div className="BioPage__contact--item">
                 <img src={iconEmail} alt="email" />
-                <a href="mailto::Mail" target="_blank" rel="noreferrer">
+                <p href="#" rel="noreferrer">
                   Mail
-                </a>
+                </p>
               </div>
               <div className="BioPage__contact--item">
                 <img src={iconPhone} alt="phone" />
-                <a href="tel:1234567890" target="_blank" rel="noreferrer">
+                <p href="#" rel="noreferrer">
                   Phone
-                </a>
+                </p>
               </div>
               <div className="BioPage__contact--item">
                 <img src={iconiLinkedin} alt="linkedin" />
-                <a
-                  href="https://www.linkedin.com/in/arenscristian/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <p href="#" rel="noreferrer">
                   Linkedin
-                </a>
+                </p>
               </div>
             </div>
           </div>

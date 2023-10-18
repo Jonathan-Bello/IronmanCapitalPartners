@@ -26,6 +26,7 @@ const NewLetter = () => {
             perPage: 4,
             pagination: false,
             width: '100%',
+            gap: "0rem",
             breakpoints: {
               1024: {
                 perPage: 3,
