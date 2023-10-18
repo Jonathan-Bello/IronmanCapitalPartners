@@ -23,21 +23,18 @@ const NewLetter = () => {
           hasTrack={false}
           className="ed-grid full"
           options={{
-            perPage: 3,
+            perPage: 4,
             pagination: false,
             width: '100%',
             breakpoints: {
-              640: {
-                perPage: 1,
-                gap: '.7rem',
+              1024: {
+                perPage: 3,
               },
               768: {
                 perPage: 2,
-                gap: '.7rem',
               },
-              1024: {
-                perPage: 3,
-                gap: '.7rem',
+              640: {
+                perPage: 1,
               },
             },
           }}
@@ -55,11 +52,7 @@ const NewLetter = () => {
         </Splide>
       </div>
 
-      <img
-        className="NewLetter__bg"
-        src={bgVerde}
-        alt="bgVerde"
-      />
+      <img className="NewLetter__bg" src={bgVerde} alt="bgVerde" />
     </section>
   )
 }

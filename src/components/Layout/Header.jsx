@@ -15,6 +15,7 @@ const Header = () => {
   useEffect(() => {
     if (windowSize.width > 768) {
       setShowMenu(true)
+      document.body.style.overflow = 'unset'
     }
 
     if (windowSize.width <= 768) {
@@ -29,7 +30,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="Header ed-grid s-grid-3 m-grid-2 full s-cross-center gap-0">
+      <header className="Header ed-grid s-grid-3 lg-grid-2 full s-cross-center gap-0">
         <RxHamburgerMenu
           className="Header__menu"
           onClick={() => setShowMenu(!showMenu)}
@@ -41,7 +42,7 @@ const Header = () => {
           alt="Ironman Capital"
         />
 
-        <div className="Header__buttons">
+        <div className="Header__buttons m-x-3 lg-x-2">
           <img className="Header__button" src={iconFacebook} alt="Facebook" />
           <img className="Header__button" src={iconInstagram} alt="Instagram" />
           <img className="Header__button" src={iconiLinkedin} alt="Linkedin" />
