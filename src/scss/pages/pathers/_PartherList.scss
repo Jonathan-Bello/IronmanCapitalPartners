@@ -1,8 +1,9 @@
 .PartherList {
   background-color: white;
-  padding: 5rem 4rem 2rem;
+  padding: 2rem 2rem 2rem;
   margin: 0;
   position: relative;
+  border-radius: 0.25em;
 
   &__content {
     max-width: 1200px;
@@ -13,20 +14,13 @@
   }
 
   &__title--blue {
-    @include etiquetaTitle;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: var(--color-primary-500);
-    text-transform: uppercase;
+    @include titlePortafolio;
+    color: var(--color-primary-500);
   }
 
   &__title--black {
-    @include etiquetaTitle;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: var(--color-grey-900);
-    text-transform: uppercase;
+    @include titlePortafolio;
+
+    color: var(--color-grey-900);
   }
 }

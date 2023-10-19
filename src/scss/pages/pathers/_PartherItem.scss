@@ -1,16 +1,80 @@
 .PartherItem {
   background-color: var(--color-grey-900);
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 1rem;
+  position: relative;
+  &:last-child {
+    padding-top: 5rem;
+  }
+
+  @include from(lg) {
+    padding: 4.5rem 4rem 1rem;
+  }
+
+  &__contentTitle {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0 100%, 0 0);
+
+    &.blue {
+      background-color: #156cb4;
+    }
+
+    &.green {
+      background-color: #71c25f;
+    }
+
+    &.yellow {
+      background-color: #f0941e;
+    }
+
+    &.red {
+      background-color: #b41919;
+    }
+
+    &.left {
+      clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0 100%, 0 0);
+      align-self: start;
+      left: 0;
+      padding: 4px 6px 4px 0;
+    }
+
+    &.right {
+      clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 10% 100%, 0% 50%);
+      align-self: end;
+      right: 0;
+      padding: 4px 0px 4px 6px;
+    }
+
+    &.left h1 {
+      padding-right: 3rem;
+    }
+
+    &.right h1 {
+      clip-path: polygon(
+        10% 0%,
+        100% 0%,
+        100% 100%,
+        10% 100%,
+        0% 50%
+      ) !important;
+
+      padding-left: 3rem;
+    }
+  }
+
   &__title {
     font-family: 'BD Megatoya Bold';
     font-size: 1.5em;
     color: white;
-    background-color: #001689;
     padding: 1rem;
     margin: 0;
+    background-color: var(--color-grey-900);
     clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0 100%, 0 0);
     @include from(lg) {
-      padding: 1rem 4rem;
       display: inline-block;
     }
   }
@@ -20,10 +84,9 @@
     margin: 0;
     color: white;
     font-size: 1.1em;
-    padding: 1rem;
 
-    @include from(lg) {
-      padding: 2rem 4rem;
+    &.right {
+      text-align: right;
     }
   }
 }

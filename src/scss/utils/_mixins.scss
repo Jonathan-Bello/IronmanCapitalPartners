@@ -30,3 +30,10 @@
     display: inline-block;
   }
 }
+
+@mixin titlePortafolio {
+  font-family: 'BD Megatoya Bold';
+  font-size: 1.65em;
+  text-align: center;
+  text-transform: uppercase;
+}

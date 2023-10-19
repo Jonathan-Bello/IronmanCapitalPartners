@@ -1,5 +1,9 @@
 .ParthersSection {
-  padding: 0rem 0 3rem;
+  padding: 2rem 0 3rem;
   background-color: var(--color-grey-900);
   margin: 0;
+
+  @include from(lg) {
+    padding: 0rem 0 3rem;
+  }
 }
