@@ -49,5 +49,17 @@
     @include from(lg) {
       max-width: 1200px !important;
     }
+
+    &--mvp {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+      & .PortafolioCard {
+        @include from(m) {
+          width: 30%;
+        }
+      }
+    }
   }
 }

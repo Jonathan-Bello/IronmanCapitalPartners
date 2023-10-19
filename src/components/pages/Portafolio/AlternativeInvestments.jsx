@@ -84,7 +84,7 @@ const AlternativeInvestments = () => {
         <br />
 
         <h4 className="AlternativeInvestments__title">MVP</h4>
-        <div className="AlternativeInvestments__cardcontainer ed-grid full s-grid-1 m-grid-3 lg-grid-3 s-mb-4">
+        <div className="AlternativeInvestments__cardcontainer AlternativeInvestments__cardcontainer--mvp">
           <PortafolioCard
             {...data.MVP[0]}
             onClick={() => handleCard(data.MVP[0])}
@@ -101,12 +101,11 @@ const AlternativeInvestments = () => {
             {...data.MVP[3]}
             onClick={() => handleCard(data.MVP[3])}
           />
-          <div className="m-x-3">
-            <PortafolioCard
-              {...data.MVP[4]}
-              onClick={() => handleCard(data.MVP[4])}
-            />
-          </div>
+
+          <PortafolioCard
+            {...data.MVP[4]}
+            onClick={() => handleCard(data.MVP[4])}
+          />
         </div>
         <br />
       </div>
