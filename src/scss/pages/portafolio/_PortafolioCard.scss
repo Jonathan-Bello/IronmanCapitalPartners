@@ -18,6 +18,10 @@
     transform: scale(0.8); /* Reduce la escala de la imagen al 80% */
   }
 
+  &__imgTitle  {
+    width: 65%;
+  }
+
   @include from(lg) {
     height: 13rem;
   }
