@@ -125,28 +125,18 @@ const portafolioData = {
   MVP: [
     {
       img: logoSpaceX,
-      meta: '800,000',
-      porcentaje: 50,
     },
     {
       img: logoEpicGames,
-      meta: '800,000',
-      porcentaje: 50,
     },
     {
       img: logoAnthropic,
-      meta: '800,000',
-      porcentaje: 50,
     },
     {
       img: logoInstacart,
-      meta: '800,000',
-      porcentaje: 50,
     },
     {
       img: logoKlarna,
-      meta: '800,000',
-      porcentaje: 50,
     },
   ],
 }
