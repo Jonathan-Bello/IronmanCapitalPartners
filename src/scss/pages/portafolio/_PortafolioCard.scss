@@ -18,8 +18,9 @@
     transform: scale(0.8); /* Reduce la escala de la imagen al 80% */
   }
 
-  &__imgTitle  {
-    width: 65%;
+  &__imgTitle {
+    width: 70%;
+    margin-bottom: 1rem;
   }
 
   @include from(lg) {
@@ -77,5 +78,24 @@
 @for $i from 1 through 100 {
   .PortafolioCard__meta__progressbar--#{$i}::before {
     width: percentage($i / 100); // Corrección aquí
+  }
+}
+
+.PortafolioCard--MVP {
+  @include from(lg) {
+    height: 13rem;
+  }
+
+  & .PortafolioCard__imgTitle {
+    width: 100%;
+    margin: 0;
+  }
+
+  & .PortafolioCard__meta {
+    display: none;
+
+    & .PortafolioCard__porcentaje {
+      display: none;
+    }
   }
 }

@@ -12,6 +12,8 @@ const ModalPortafolio = ({
   subtitle,
   text,
   url,
+  formTitle,
+  footerurlText,
   setShowModal,
 }) => {
   return (
@@ -42,7 +44,7 @@ const ModalPortafolio = ({
 
                 {url && (
                   <a href={url} target="_blank" rel="noreferrer">
-                    Know morea about {title}
+                    {footerurlText}
                   </a>
                 )}
               </div>
@@ -50,6 +52,7 @@ const ModalPortafolio = ({
                 <PortafolioForm
                   portafolioItem={{
                     title,
+                    formTitle,
                   }}
                 />
               </div>
@@ -59,7 +62,10 @@ const ModalPortafolio = ({
               <h3 className="ModalPortafolio__content__banner__title">
                 CONTACT US TO KNOW MORE
               </h3>
-              <Link to="/contact" className="ModalPortafolio__content__banner__button">
+              <Link
+                to="/contact"
+                className="ModalPortafolio__content__banner__button"
+              >
                 CONTACT US
               </Link>
             </div>

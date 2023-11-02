@@ -1,8 +1,11 @@
 import React from 'react'
 
-const PortafolioCard = ({ img, meta, porcentaje, onClick }) => {
+const PortafolioCard = ({ img, meta, porcentaje, onClick, mvp }) => {
   return (
-    <article className="PortafolioCard" onClick={onClick}>
+    <article
+      className={`PortafolioCard ${mvp && 'PortafolioCard--MVP'}`}
+      onClick={onClick}
+    >
       <img className="PortafolioCard__imgTitle" src={img} alt="logo" />
 
       <div className="PortafolioCard__meta">

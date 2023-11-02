@@ -88,23 +88,28 @@ const AlternativeInvestments = () => {
           <PortafolioCard
             {...data.MVP[0]}
             onClick={() => handleCard(data.MVP[0])}
+            mvp={true}
           />
           <PortafolioCard
             {...data.MVP[1]}
             onClick={() => handleCard(data.MVP[1])}
+            mvp={true}
           />
           <PortafolioCard
             {...data.MVP[2]}
             onClick={() => handleCard(data.MVP[2])}
+            mvp={true}
           />
           <PortafolioCard
             {...data.MVP[3]}
             onClick={() => handleCard(data.MVP[3])}
+            mvp={true}
           />
 
           <PortafolioCard
             {...data.MVP[4]}
             onClick={() => handleCard(data.MVP[4])}
+            mvp={true}
           />
         </div>
         <br />

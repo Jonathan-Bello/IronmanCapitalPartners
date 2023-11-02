@@ -55,7 +55,7 @@
       flex-wrap: wrap;
       justify-content: space-around;
 
-      & .PortafolioCard {
+      & .PortafolioCard--MVP {
         @include from(m) {
           width: 30%;
         }

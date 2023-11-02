@@ -15,7 +15,7 @@ const PortafolioForm = ({ portafolioItem }) => {
         </div>
       ) : (
         <>
-          <h2 className="">LIKE TO INVEST?</h2>
+          <h2 className="">{portafolioItem.formTitle}</h2>
           <form onSubmit={handleSubmit} className="s-main-center">
             <div className="ed-grid s-grid-1 m-grid-2 gap-1">
               <div className="PortafolioForm__input">
