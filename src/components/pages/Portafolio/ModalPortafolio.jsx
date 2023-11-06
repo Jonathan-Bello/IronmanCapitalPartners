@@ -15,6 +15,7 @@ const ModalPortafolio = ({
   formTitle,
   footerurlText,
   setShowModal,
+  imgContent,
 }) => {
   return (
     <div className="ModalPortafolio">
@@ -41,6 +42,8 @@ const ModalPortafolio = ({
                 <h1>{title}</h1>
                 <h2>{subtitle}</h2>
                 <p>{text}</p>
+
+                {imgContent && <img src={imgContent} alt="tit" />}
 
                 {url && (
                   <a href={url} target="_blank" rel="noreferrer">

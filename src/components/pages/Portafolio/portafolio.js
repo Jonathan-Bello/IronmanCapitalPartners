@@ -1,4 +1,5 @@
 import logoIronwallet from '../../../assets/images/portafolio/logo-ironwallet.png'
+import iron from '../../../assets/images/portafolio/iron.jpg'
 import logoSnowball from '../../../assets/images/portafolio/logo-snowball.png'
 import logoSoop from '../../../assets/images/portafolio/logo-soop.png'
 import logoArthurSons from '../../../assets/images/portafolio/logo-arthur-sons.png'
@@ -24,6 +25,7 @@ const portafolioData = {
       subtitle: 'VENTURE CAPITAL US MARKET ENTRY',
       text: 'IronWallet offers a comprehensive financial solution for the tech-savvy generation. It combines premium banking with wealth management services, encompassing everything from savings accounts to commercial paper S&P, private equity in small to medium enterprises, Pre IPO Tech Unicorns, and real estate.',
       formTitle: 'INTERESTED IN INVESTING?',
+      imgContent: iron,
       footerurlText: '',
       url: '',
     },
