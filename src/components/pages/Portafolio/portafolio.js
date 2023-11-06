@@ -1,5 +1,5 @@
 import logoIronwallet from '../../../assets/images/portafolio/logo-ironwallet.png'
-import iron from '../../../assets/images/portafolio/iron.jpg'
+import iron from '../../../assets/images/portafolio/Iron.jpg'
 import logoSnowball from '../../../assets/images/portafolio/logo-snowball.png'
 import logoSoop from '../../../assets/images/portafolio/logo-soop.png'
 import logoArthurSons from '../../../assets/images/portafolio/logo-arthur-sons.png'
